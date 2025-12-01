@@ -9,7 +9,6 @@
       height: 100%;
       overflow: hidden;
       font-family: Arial, sans-serif;
-      overscroll-behavior: none;
     }
     .container {
       width: 100%;
@@ -24,8 +23,9 @@
       border: none;
       margin-top: -180px; /* 可根据需要调整 */
       display: block;
-      overflow: hidden;
-      overscroll-behavior: none;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
     }
      /* 悬浮按钮容器 - 居中靠上 */
     .floating-buttons {
