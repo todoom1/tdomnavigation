@@ -23,7 +23,9 @@
       border: none;
       margin-top: -180px; /* 可根据需要调整 */
       display: block;
+      overscroll-behavior-y: none;
       overflow: hidden;
+      
     }
      /* 悬浮按钮容器 - 居中靠上 */
     .floating-buttons {
@@ -59,17 +61,6 @@
     }
     
   </style>
-<script>
-onBeforeMount(() => {
-   let u = navigator.userAgent
-   if (u.indexOf('iPhone') > -1) {
-     inobounce.enable()
-   }
- })
- onUnmounted(() => {
-   inobounce.disable()
- })
-</script>
 </head>
 <body>
   <!-- 悬浮按钮：返回首页 和 返回游戏列表 -->
