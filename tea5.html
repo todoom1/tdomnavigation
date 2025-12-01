@@ -62,9 +62,15 @@
     
   </style>
 <script>
-document.addEventListener('touchmove', function(e) {
-  e.preventDefault();
-}, false);
+onBeforeMount(() => {
+   let u = navigator.userAgent
+   if (u.indexOf('iPhone') > -1) {
+     inobounce.enable()
+   }
+ })
+ onUnmounted(() => {
+   inobounce.disable()
+ })
 </script>
 </head>
 <body>
