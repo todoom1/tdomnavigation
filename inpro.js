@@ -21,7 +21,7 @@ document.getElementById("ba").addEventListener("click", function() {  window.loc
 document.getElementById("xnb").addEventListener("click", function() {  window.location.href = "./xnb.html";});
 document.getElementById("ggy").addEventListener("click", function() {  window.location.href = "https://maidongyun.com/index.php#/register?code=ZVPKqeOI";});
 document.getElementById("dkd").addEventListener("click", function() {  window.location.href = "https://www.dukadi.xyz/#/register?code=2Rk31VCp";});
-document.getElementById("dm").addEventListener("click", function() {  window.location.href = "https://cdn.damai222.shop/#/register?code=JGQT6iHz";});
+document.getElementById("dm").addEventListener("click", function() {  window.location.href = "https://666.damai222.cc/#/register?code=JGQT6iHz";});
 document.getElementById("jryw").addEventListener("click", function() {  window.location.href = "https://60s.lylme.com/";});
 document.getElementById("hwid").addEventListener("click", function() {  window.location.href = "https://id.ali-door.top/share/damai";});
 document.getElementById("rjdq").addEventListener("click", function() {  window.location.href = "https://52qfx.lanzouw.com/b01jdki3a";});
