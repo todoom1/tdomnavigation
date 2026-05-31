@@ -1,5 +1,5 @@
 // 配置
-const CACHE_NAME = 'net-first-v1.02';
+const CACHE_NAME = 'net-first-v1.03';
 const TIMEOUT_MS = 3000; // 网络超时阈值
 
 const PRECACHE = [
